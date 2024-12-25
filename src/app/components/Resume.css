@@ -1,0 +1,685 @@
+:root {
+    --background-color-main: black;
+    --background-color-secondary: rgb(10, 10, 10);
+    --background-color-tertiary: rgb(26, 26, 26);
+    --border-color: #1E1E1E;
+    --black: rgb(0, 0, 0);
+    --font-color-heading: #FAFAFA;
+    --font-color-subheading: #D6D6D6;
+    --font-color-gold: #20a4b6;
+    --line-color: rgb(54, 53, 53);
+    --radius-6: 6px;
+    --radius-8: 8px;
+    --radius-10: 10px;
+    --radius-12: 12px;
+    --radius-15: 15px;
+    --radius-20: 20px;
+    --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
+    --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
+    --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.125);
+
+    --transition-1: 0.25s ease;
+    --transition-2: 0.5s ease-in-out;
+}
+
+.education {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px;
+    margin-bottom: 30px;
+}
+
+.education-left {
+    width: 8%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education-right {
+    width: 92%;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.education-line {
+    width: 2px;
+    height: 4rem;
+    background-color: var(--line-color);
+    position: absolute;
+    top: 0;
+}
+
+.education-icon {
+    font-size: 3rem;
+    background-color: var(--background-color-tertiary);
+    padding: 5px;
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-8);
+    box-shadow: var(--shadow-1);
+    color: var(--font-color-gold);
+    position: absolute;
+}
+
+.education-point1 {
+    position: absolute;
+    font-size: 1.5rem;
+    color: var(--font-color-gold);
+    top: 4rem;
+}
+
+.education-point2 {
+    position: absolute;
+    font-size: 1.5rem;
+    color: var(--font-color-gold);
+    top: 10.5rem;
+}
+
+.education-point3 {
+    position: absolute;
+    font-size: 1.5rem;
+    color: var(--font-color-gold);
+    top: 17.3rem
+}
+
+.education-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.Education-Section {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--font-color-heading);
+}
+
+.college {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.college h3 {
+    font-size: 0.9rem;
+    color: var(--font-color-gold);
+}
+
+.college p {
+    font-size: 0.9rem;
+    color: var(--font-color-subheading);
+}
+
+.class-12 {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.class-12 h3 {
+    font-size: 0.9rem;
+    color: var(--font-color-gold);
+}
+
+.class-12 p {
+    font-size: 0.9rem;
+    color: var(--font-color-subheading);
+}
+
+.class-10 {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.class-10 h3 {
+    font-size: 0.9rem;
+    color: var(--font-color-gold);
+}
+
+.class-10 p {
+    font-size: 0.9rem;
+    color: var(--font-color-subheading);
+}
+
+.achievements {
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 0px;
+}
+
+.achievements-left {
+    width: 8%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.achievements-right {
+    width: 92%;
+    position: relative;
+    margin-left: 1rem;
+}
+
+
+.achievements-line {
+    width: 2px;
+    height: 18rem;
+    background-color: var(--line-color);
+    position: absolute;
+    top: 0;
+}
+
+.achievements-icon {
+    font-size: 3rem;
+    background-color: var(--background-color-tertiary);
+    padding: 5px;
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-8);
+    box-shadow: var(--shadow-1);
+    color: var(--font-color-gold);
+    position: absolute;
+}
+
+.achievements-point1 {
+    position: absolute;
+    font-size: 1.5rem;
+    color: var(--font-color-gold);
+    top: 4rem;
+}
+
+.achievements-point2 {
+    position: absolute;
+    font-size: 1.5rem;
+    color: var(--font-color-gold);
+    top: 10.5rem;
+}
+
+.achievements-point3 {
+    position: absolute;
+    font-size: 1.5rem;
+    color: var(--font-color-gold);
+    top: 17.3rem
+}
+
+.achievements-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.Achievements-Section {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--font-color-heading);
+}
+
+
+.achievement1 {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin-top: 15px;
+    font-weight: 500;
+    color: var(--font-color-gold);
+}
+
+.achievement1 h3 {
+    font-size: 0.9rem;
+    color: var(--font-color-subheading);
+}
+
+.achievement1 p {
+    font-size: 0.9rem;
+    color: var(--font-color-subheading);
+}
+
+.achievement2 {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin-top: 25px;
+    font-weight: 500;
+    color: var(--font-color-gold);
+}
+
+.achievement2 h3 {
+    font-size: 0.9rem;
+    color: var(--font-color-subheading);
+}
+
+.achievement2 p {
+    font-size: 0.9rem;
+    color: var(--font-color-subheading);
+}
+
+.achievement3 {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin-top: 25px;
+    font-weight: 500;
+    color: var(--font-color-gold);
+}
+
+.achievement3 h3 {
+    font-size: 0.9rem;
+    color: var(--font-color-subheading);
+}
+
+.achievement3 p {
+    font-size: 0.9rem;
+    color: var(--font-color-subheading);
+}
+
+.Position-of-Responsibility {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0px;
+}
+
+.Por-icon {
+    font-size: 3rem;
+    background-color: var(--background-color-tertiary);
+    padding: 5px;
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-8);
+    box-shadow: var(--shadow-1);
+    color: var(--font-color-gold);
+    margin-left: 0.4rem;
+}
+
+.Por-top {
+    display: flex;
+    flex-direction: row;
+    gap: 1.3rem;
+    align-items: center;
+}
+
+.Por-Section {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--font-color-heading);
+    text-align: start;
+}
+
+
+.por {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--font-color-heading);
+    text-align: start;
+    display: none;
+}
+
+.Por-1 {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin-top: 15px;
+    font-weight: 600;
+    margin-left: 5rem;
+    margin-right: 1rem;
+}
+
+.Por-1 h3 {
+    font-size: 0.9rem;
+    color: var(--font-color-gold);
+}
+
+.Por-1 p {
+    font-size: 0.9rem;
+    color: var(--font-color-subheading);
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.number-icon {
+    font-size: 1.7rem;
+    color: var(--font-color-gold);
+    margin-right: 2.1rem;
+    margin-left: -4rem;
+}
+
+.Por-2 {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin-top: 25px;
+    font-weight: 600;
+    margin-left: 5rem;
+    margin-right: 1rem;
+    font-weight: 500;
+}
+
+.Por-2 h3 {
+    font-size: 0.9rem;
+    color: var(--font-color-gold);
+}
+
+.Por-2 p {
+    font-size: 0.9rem;
+    color: var(--font-color-subheading);
+    line-height: 1.5rem;
+}
+
+.skill-percent {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0px;
+    width: 100%;
+    height: 20rem;
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-20);
+    background-color: var(--background-color-tertiary);
+    padding: 1rem 2rem;
+    overflow: auto;
+    gap: 1.3rem;
+    margin-bottom: -9px;
+}
+
+.skill-Section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.skill-name {
+    font-size: 1rem;
+
+}
+
+.html {
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to right, var(--font-color-gold) 95%, black 80%);
+    border-radius: 25px;
+}
+
+.css {
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to right, var(--font-color-gold) 95%, black 80%);
+    border-radius: 25px;
+}
+
+.js {
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to right, var(--font-color-gold) 90%, black 80%);
+    border-radius: 25px;
+}
+
+.Ts {
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to right, var(--font-color-gold) 80%, black 80%);
+    border-radius: 25px;
+}
+
+.react {
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to right, var(--font-color-gold) 80%, black 80%);
+    border-radius: 25px;
+}
+
+.Ejs {
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to right, var(--font-color-gold) 70%, black 70%);
+    border-radius: 25px;
+}
+
+.next {
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to right, var(--font-color-gold) 80%, black 80%);
+    border-radius: 25px;
+}
+
+.sql {
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to right, var(--font-color-gold) 75%, black 75%);
+    border-radius: 25px;
+}
+
+.skill-percent::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.skill-percent::-webkit-scrollbar-thumb {
+    background-color: #20a4b6;
+    border-radius: 100px;
+}
+
+.skill-percent::-webkit-scrollbar-track {
+    border-radius: 100px;
+    margin: 3rem 0rem;
+    background-color: #0e0d0d;
+    overflow: hidden;
+}
+
+/* @media screen and (max-width: 730px) {
+    .education-line {
+        height: 20rem;
+    }
+
+    .education-point2 {
+        top: 12.4rem;
+    }
+
+    .education-point3 {
+        top: 19rem
+    }
+
+    .Por-icon {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 666px) {
+
+    .education-line {
+        height: 21.7rem;
+    }
+
+    .education-point3 {
+        top: 20.7rem
+    }
+}
+
+@media screen and (max-width: 604px) {
+    .education-line {
+        height: 23rem;
+    }
+
+    .education-point2 {
+        top: 14rem;
+    }
+
+    .education-point3 {
+        top: 22.2rem
+    }
+
+    .education p {
+        font-weight: 400;
+    }
+
+    .Por-Section {
+        display: none;
+    }
+
+    .por {
+        display: flex;
+    }
+
+    .Por-top {
+        margin-left: -0.4rem;
+        gap: 0.4rem;
+    }
+
+    .Por-icon {
+        margin-left: 0px;
+    }
+
+    .Por-1 {
+        text-align: start;
+        margin-left: 3.3rem;
+    }
+
+    .number-icon {
+        font-size: 1.7rem;
+        color: var(--font-color-gold);
+        margin-right: 1.3rem;
+        margin-left: -3rem;
+    }
+
+    .Por-1 p {
+        font-weight: 400;
+    }
+
+    .Por-2 p {
+        font-weight: 400;
+    }
+
+
+    .Por-2 {
+        text-align: start;
+        margin-left: 3.3rem;
+    }
+}
+
+
+@media screen and (max-width: 412px) {
+    .education-line {
+        height: 25rem;
+    }
+
+    .education-point2 {
+        top: 15.9rem;
+    }
+
+    .education-point3 {
+        top: 24.2rem
+    }
+}
+
+
+@media screen and (max-width: 408px) {
+    .education-line {
+        height: 25rem;
+    }
+
+    .education-point2 {
+        top: 15.9rem;
+    }
+
+    .education-point3 {
+        top: 24.2rem
+    }
+}
+
+@media screen and (max-width: 386px) {
+
+    .education-line {
+        height: 25.8rem;
+    }
+
+    .education-point3 {
+        top: 25.7rem
+    }
+}
+
+@media screen and (max-width: 393px) {
+
+    .education-line {
+        height: 25.9rem;
+    }
+
+    .education-point3 {
+        top: 25.9rem
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .education-line {
+        height: 27.5rem;
+    }
+
+    .education-point2 {
+        top: 17.5rem;
+    }
+
+    .education-point3 {
+        top: 27.5rem
+    }
+
+
+}
+
+@media screen and (max-width: 530px) {
+    .achievements-line {
+        height: 19rem;
+    }
+
+    .achievements-point3 {
+        top: 19rem
+    }
+
+    .education {
+        margin-left: 0.4rem;
+        text-align: start;
+    }
+
+    .achievements {
+        margin-left: 0.4rem;
+        text-align: start;
+    }
+}
+
+
+@media screen and (max-width: 474px) {
+    .achievements-line {
+        height: 21rem;
+    }
+
+    .achievements-point2 {
+        top: 12.3rem;
+    }
+
+    .achievements-point3 {
+        top: 20.6rem
+    }
+
+}
+
+@media screen and (max-width: 482px) {
+    .achievements-line {
+        height: 21rem;
+    }
+
+    .achievements-point2 {
+        top: 12.5rem;
+    }
+
+    .achievements-point3 {
+        top: 20.8rem
+    }
+
+    .Por-top {
+        gap: 0.4rem;
+    }
+
+    .Por-1 {
+        text-align: start;
+        margin-left: 3.2rem;
+    }
+
+    .Por-2 {
+        text-align: start;
+        margin-left: 3.2rem;
+    }
+} */

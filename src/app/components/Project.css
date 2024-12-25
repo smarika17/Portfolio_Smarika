@@ -1,0 +1,171 @@
+:root {
+    --background-color-main: black;
+    --background-color-secondary: rgb(10, 10, 10);
+    --background-color-tertiary: rgb(26, 26, 26);
+    --border-color: #1E1E1E;
+    --black: rgb(0, 0, 0);
+    --font-color-heading: #FAFAFA;
+    --font-color-subheading: #D6D6D6;
+    --font-color-gold: #20a4b6;
+    --radius-6: 6px;
+    --radius-8: 8px;
+    --radius-10: 10px;
+    --radius-12: 12px;
+    --radius-15: 15px;
+    --radius-20: 20px;
+    --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
+    --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
+    --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.125);
+
+    --transition-1: 0.25s ease;
+    --transition-2: 0.5s ease-in-out;
+}
+
+.project-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.software-projects {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+.wrapper {
+    overflow: auto;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+    background-color: #20a4b6;
+    border-radius: 100px;
+}
+
+.wrapper::-webkit-scrollbar-track {
+    border-radius: 100px;
+    margin: 2rem 100px;
+    background-color: var(--background-color-tertiary);
+}
+
+.project-box {
+    display: flex;
+    flex-direction: column;
+    min-width: 230px;
+    max-width: 230px;
+    height: 300px;
+    align-items: center;
+    background-color: var(--background-color-tertiary);
+    border-radius: var(--radius-15);
+    overflow: hidden;
+}
+
+.project-box:hover {
+    transition: var(--transition-2);
+    cursor: pointer;
+}
+
+.project-box img {
+    width: 100%;
+    height: 200px;
+    border-radius: 0px;
+}
+
+.img-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-box h1 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    text-align: center;
+    color: var(--font-color-gold);
+}
+
+.project-box p {
+    font-size: 0.8rem;
+    font-weight: 200;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.electronics-projects {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.project-explore {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
+}
+
+.backbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    border-radius: var(--radius-10);
+    gap: 5px;
+    padding: 4px 15px;
+    color: var(--font-color-subheading);
+    font-weight: 600;
+    font-size: 1rem;
+    border-color: var(--font-color-gold);
+    transition: var(--transition-2);
+    margin: 1rem 0rem 0rem 0rem;
+    animation: zoomIN 0.5s forwards;
+}
+
+.backbtn:hover {
+    border-color: var(--font-color-gold);
+    cursor: pointer;
+}
+
+.zoom-in {
+    animation: zoomIn 0.5s forwards;
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.zoom-out {
+    animation: zoomOut 0.5s forwards;
+}
+
+@keyframes zoomOut {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
