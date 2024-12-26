@@ -3,7 +3,7 @@ import CodeIcon from '@mui/icons-material/Code';
 export default function About() {
     return (
         <>
-            <div style={{ color: "gray-700", fontSize: "1rem", marginBottom: "2rem" }}>
+            <div style={{ textAlign: "start", color: "gray-700", fontSize: "1rem", marginBottom: "2rem" }}>
             I am a Fullstack Developer with a passion for problem-solving. Whether it's tackling complex challenges, engaging in tech discussions, or even 3 AM debugging sessions, I’m always open to learning and growing. With strong communication, management, and presentation skills, I enjoy building communities and collaborating to create impactful solutions.
             </div>
             <h1 style={{ fontWeight: 800, fontSize: "2rem", margin: "1rem 0rem" }}>What I'm Doing</h1>

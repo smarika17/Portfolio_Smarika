@@ -43,7 +43,7 @@ export default function Contact() {
     return (
         <>
             <div>
-                <p style={{fontSize: "1.3rem", padding: "10px 10px"}}>I’m probably busy figuring out life—or debugging it—but hey, why not drop me a message? Let’s turn a casual conversation into something exciting (or at least mildly entertaining)!👇🏻</p>
+                <p style={{textAlign: "start", fontSize: "1.3rem", padding: "10px 10px"}}>I’m probably busy figuring out life—or debugging it—but hey, why not drop me a message? Let’s turn a casual conversation into something exciting (or at least mildly entertaining)!👇🏻</p>
             </div>
             <form className="contact-form" ref={form} onSubmit={sendEmail}>
                 <div className="name-email">

@@ -110,6 +110,7 @@
 .college p {
     font-size: 0.9rem;
     color: var(--font-color-subheading);
+    text-align: start;
 }
 
 .class-12 {
@@ -302,7 +303,7 @@
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--font-color-heading);
-    text-align: start;
+    text-align: start;  
 }
 
 
@@ -310,7 +311,7 @@
     font-size: 2rem;
     font-weight: 600;
     color: var(--font-color-heading);
-    text-align: start;
+    /* text-align: start;  */
     display: none;
 }
 
@@ -333,6 +334,7 @@
     color: var(--font-color-subheading);
     line-height: 1.5rem;
     font-weight: 500;
+    text-align: start;
 }
 
 .number-icon {
@@ -350,6 +352,7 @@
     margin-left: 5rem;
     margin-right: 1rem;
     font-weight: 500;
+    text-align: start;
 }
 
 .Por-2 h3 {
@@ -526,7 +529,7 @@
     }
 
     .Por-1 {
-        text-align: start;
+        text-align: start; 
         margin-left: 3.3rem;
     }
 
@@ -547,7 +550,7 @@
 
 
     .Por-2 {
-        text-align: start;
+        text-align: start; 
         margin-left: 3.3rem;
     }
 }
@@ -631,12 +634,12 @@
 
     .education {
         margin-left: 0.4rem;
-        text-align: start;
+        text-align: start; 
     }
 
     .achievements {
         margin-left: 0.4rem;
-        text-align: start;
+        text-align: start; 
     }
 }
 
@@ -674,12 +677,12 @@
     }
 
     .Por-1 {
-        text-align: start;
+        text-align: start; 
         margin-left: 3.2rem;
     }
 
     .Por-2 {
-        text-align: start;
+        text-align: start; 
         margin-left: 3.2rem;
     }
 } */
