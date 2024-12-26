@@ -120,11 +120,11 @@ export default function JavaChat() {
                         <img
                             width={"50%"}
                             style={{ borderRadius: "12px", border: "1px solid rgb(26, 26, 26)" }}
-                            src="./clientChat.png" alt="YouTube Bookmark 1" />
+                            src="./clientChat.png" alt="Java chat client ss" />
                         <img
                             width={"50%"}
                             style={{ borderRadius: "12px", border: "1px solid rgb(26, 26, 26)" }}
-                            src="./serverChat.png" alt="YouTube Bookmark 2" />
+                            src="./javachatSe.png" alt="Java chat server ss" />
                     </Box>
                 </Box>
 
